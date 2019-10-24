@@ -17,7 +17,7 @@
 <?php
 if ( isset($_POST['sub']))
 {
-    //ob_end_clean();
+    ob_end_clean();
     $name  = $_POST['name'];
     echo "<center><h1>Welcome ".$name." ;)</h1></center>";
 }
